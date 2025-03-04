@@ -1,7 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="pink">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="main-container">
+            <div class="design1"></div>
+        <div class="content">
+            <div class="dropdown">
+                <button class="colorThemeDropDown"> Color Theme</button>
+                  <div class="dropdown-content">
+                  <a href="#" class="dropcont" data-theme="pink">pink</a>
+                  <a href="#" class="dropcont" data-theme="dark">dark</a>
+                </div>
+            </div>
+            <div id="popup-container" class="popup">
+                <div class="popup-content">
+                    <h2 class="notice">NOTICE:</h2>
+                    <p>This website is non responsive and is still being worked on. If it is looking a bit weird, zoom out on your browser. I reccommend using a pc or laptop to view this wesite effectively.</p>
+                    <button id="close-popup">Close</button>
+                </div>
+            </div>
+            <h1 class="nameMain">Zakiyyah Harris</h1>
+            <div class="navContainer">
+                <nav class="navHome">
+                    <button class="navButton"> <a href="portfolio.html" class="navLink">Portfolio</a></button>
+                    <button class="navButton"><a href="aboutMe.html" class="navLink">About Me</a></button>
+                    <button class="navButton"><a href="resume.html" class="navLink">Resume</a></button>
+                    <button class="navButton"><a href="contact.html" class="navLink">Contact</a></button>
+                </nav>
+            </div>             
+        </div>
+    </div>
+    <script src="portfolio.js"></script>
 </body>
 </html>
